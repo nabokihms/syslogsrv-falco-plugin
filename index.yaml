@@ -1,0 +1,13 @@
+- name: syslogsrv
+  type: plugin
+  registry: ghcr.io
+  repository: nabokihms/syslogsrv-plugin/plugin/syslogsrv
+  description: Pretends to be a syslog server and analyze events
+  home: https://github.com/nabokihms/syslogsrv-falco-plugin
+  keywords:
+  - syslog
+  license: Apache-2.0
+  mastertainers:
+  - name: Maksim Nabokikh
+  sources:
+  - https://github.com/nabokihms/syslogsrv-falco-plugin
